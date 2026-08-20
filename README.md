@@ -2,7 +2,9 @@
 
 My journey from Python beginner to Dagster Data Engineer.
 
-## 🎯 Goal
+---
+
+# 🎯 Goal
 
 Learn:
 
@@ -16,7 +18,7 @@ Learn:
 
 ---
 
-## 📜 Rules
+# 📜 Rules
 
 Every day:
 
@@ -27,9 +29,9 @@ Every day:
 
 ---
 
-## 📈 Progress
+# 📈 Progress
 
-### Week 1: Python Fundamentals
+## Week 1: Python Fundamentals
 
 - [x] Day 1 - Restaurant Bill Calculator
 - [x] Day 2 - IPL Score Tracker
@@ -40,7 +42,7 @@ Every day:
 - [x] Day 6.5 - Error Handling
 - [x] Day 7 - Student Result Management System
 
-### Week 2: Data Structures & OOP
+## Week 2: Data Structures & OOP
 
 - [x] Day 8 - Student Database (Lists & Dictionaries)
 - [x] Day 9 - Classes & Objects
@@ -50,22 +52,33 @@ Every day:
 - [x] Day 13 - Abstraction (Smart Vehicle System)
 - [x] Day 14 - OOP Final Project (Bank Management System)
 
-### Upcoming
+## Week 3: SQL & Data Engineering Foundations
 
-- [ ] Day 15 - SQL Fundamentals
-- [ ] Day 16 - SQL Filtering & Sorting
-- [ ] Day 17 - SQL Aggregations
-- [ ] Day 18 - SQL Joins
-- [ ] Day 19 - ETL Fundamentals
-- [ ] Day 20 - CSV Processing
-- [ ] Day 21 - Mini Data Pipeline
-- [ ] Day 22+ - Dagster 🚀
+- [x] Day 15 - SQL Fundamentals
+- [x] Day 16 - SQL Filtering & Sorting
+- [x] Day 17 - SQL Aggregations
+- [x] Day 18 - SQL Joins
+- [x] Day 19 - ETL Fundamentals (CSV Processing Pipeline)
+- [x] Day 20 - Advanced ETL & Data Validation
+
+## Upcoming
+
+- [ ] Day 21 - ETL Reporting Pipeline
+- [ ] Day 22 - End-to-End Data Pipeline Project
+- [ ] Day 23 - Data Warehousing Basics
+- [ ] Day 24 - Introduction to Dagster 🚀
+- [ ] Day 25 - Dagster Assets
+- [ ] Day 26 - Dagster Jobs & Definitions
+- [ ] Day 27 - Dagster Resources
+- [ ] Day 28 - Dagster Partitions
+- [ ] Day 29 - Dagster Asset Checks
+- [ ] Day 30 - Final Dagster Project
 
 ---
 
-## 🏆 Skills Learned So Far
+# 🏆 Skills Learned So Far
 
-### Python Fundamentals
+## Python Fundamentals
 
 - Variables
 - Data Types
@@ -76,12 +89,12 @@ Every day:
 - File Handling
 - Error Handling
 
-### Data Structures
+## Data Structures
 
 - Lists
 - Dictionaries
 
-### OOP
+## OOP
 
 - Classes & Objects
 - Encapsulation
@@ -89,7 +102,27 @@ Every day:
 - Polymorphism
 - Abstraction
 
-### Development Practices
+## SQL
+
+- SELECT
+- WHERE
+- ORDER BY
+- LIMIT
+- GROUP BY
+- COUNT
+- SUM
+- AVG
+- JOINS
+
+## Data Engineering
+
+- CSV Processing
+- ETL Fundamentals
+- Data Validation
+- Data Quality Checks
+- Analytics Reporting
+
+## Development Practices
 
 - Git & GitHub
 - Documentation
@@ -98,7 +131,7 @@ Every day:
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 dagster-from-scratch/
@@ -118,6 +151,115 @@ dagster-from-scratch/
 ├── day-12-polymorphism-animal-simulator/
 ├── day-13-abstraction-smart-vehicle/
 ├── day-14-oop-final-project/
+├── day-15-sql-fundamentals/
+├── day-16-sql-filtering-sorting/
+├── day-17-sql-aggregations/
+├── day-18-sql-joins/
+├── day-19-etl-fundamentals/
+├── day-20-data-validation-etl/
 │
 ├── notes/
-├── projects
+├── projects/
+├── CONTRIBUTING.md
+├── CONTRIBUTION_RULES.md
+└── README.md
+```
+
+---
+
+# ✅ Current Status
+
+Completed:
+
+✅ Python Fundamentals
+
+✅ Data Structures
+
+✅ Object-Oriented Programming
+
+✅ SQL Fundamentals
+
+✅ ETL Fundamentals
+
+✅ Data Validation
+
+Currently Learning:
+
+🔄 Data Engineering
+
+Upcoming:
+
+🚀 Dagster
+
+🚀 Data Pipelines
+
+🚀 Production Workflows
+
+---
+
+# 🤝 Contributions Welcome
+
+This is a public learning repository.
+
+Contributors can help by:
+
+- Improving documentation
+- Adding examples
+- Adding test cases
+- Fixing bugs
+- Improving code quality
+- Adding beginner-friendly explanations
+
+Please read:
+
+- `CONTRIBUTING.md`
+- `CONTRIBUTION_RULES.md`
+
+before contributing.
+
+---
+
+# 🎯 End Goal
+
+```text
+Python ✅
+    ↓
+OOP ✅
+    ↓
+SQL ✅
+    ↓
+ETL ✅
+    ↓
+Data Engineering 🔄
+    ↓
+Dagster ⏳
+    ↓
+Production Data Pipelines ⏳
+```
+
+---
+
+# 📅 Tomorrow's Plan
+
+```text
+Day 21 - ETL Reporting Pipeline
+Day 22 - End-to-End Data Pipeline Project
+Day 23 - Data Warehousing Basics
+Day 24 - Introduction to Dagster 🚀
+```
+
+---
+
+# 🚀 Why I'm Doing This
+
+I believe the best way to learn is by building.
+
+This repository documents my journey from Python basics to becoming a Data Engineer capable of building real-world ETL pipelines and orchestrating them using Dagster.
+
+Every commit represents a small step forward.
+
+---
+
+Started: August 2026 🚀
+
+The journey from Python Beginner to Dagster Data Engineer continues...
