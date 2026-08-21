@@ -58,16 +58,16 @@ Every day:
 - [x] Day 16 - SQL Filtering & Sorting
 - [x] Day 17 - SQL Aggregations
 - [x] Day 18 - SQL Joins
-- [x] Day 19 - ETL Fundamentals (CSV Processing Pipeline)
+- [x] Day 19 - ETL Fundamentals
 - [x] Day 20 - Advanced ETL & Data Validation
+- [x] Day 21 - ETL Reporting Pipeline
+- [x] Day 22 - End-to-End Data Pipeline
+- [x] Day 23 - Data Warehouse Basics (SQLite)
+- [x] Day 24 - Introduction to Dagster
 
 ## Upcoming
 
-- [ ] Day 21 - ETL Reporting Pipeline
-- [ ] Day 22 - End-to-End Data Pipeline Project
-- [ ] Day 23 - Data Warehousing Basics
-- [ ] Day 24 - Introduction to Dagster 🚀
-- [ ] Day 25 - Dagster Assets
+- [ ] Day 25 - Dagster Assets Deep Dive
 - [ ] Day 26 - Dagster Jobs & Definitions
 - [ ] Day 27 - Dagster Resources
 - [ ] Day 28 - Dagster Partitions
@@ -121,11 +121,21 @@ Every day:
 - Data Validation
 - Data Quality Checks
 - Analytics Reporting
+- End-to-End Data Pipelines
+- Data Warehousing
+- SQLite
+
+## Dagster
+
+- Assets
+- Asset Dependencies
+- Definitions
 
 ## Development Practices
 
 - Git & GitHub
 - Documentation
+- Testing
 - Test Cases
 - Project Organization
 
@@ -157,6 +167,10 @@ dagster-from-scratch/
 ├── day-18-sql-joins/
 ├── day-19-etl-fundamentals/
 ├── day-20-data-validation-etl/
+├── day-21-etl-reporting-pipeline/
+├── day-22-end-to-end-data-pipeline/
+├── day-23-data-warehouse-basics/
+├── day-24-introduction-to-dagster/
 │
 ├── notes/
 ├── projects/
@@ -177,23 +191,60 @@ Completed:
 
 ✅ Object-Oriented Programming
 
-✅ SQL Fundamentals
+✅ SQL
 
 ✅ ETL Fundamentals
 
 ✅ Data Validation
 
+✅ Reporting Pipelines
+
+✅ End-to-End Data Pipelines
+
+✅ Data Warehousing Basics
+
+✅ Introduction to Dagster
+
 Currently Learning:
 
-🔄 Data Engineering
+🔄 Dagster
 
 Upcoming:
 
-🚀 Dagster
+🚀 Dagster Assets
 
-🚀 Data Pipelines
+🚀 Jobs & Definitions
 
-🚀 Production Workflows
+🚀 Resources
+
+🚀 Asset Checks
+
+🚀 Production Data Pipelines
+
+---
+
+# 📊 Progress Snapshot
+
+```text
+Python            ✅ 100%
+OOP               ✅ 100%
+SQL               ✅ 100%
+ETL               ✅ 100%
+Data Engineering  ✅ 90%
+Dagster           ✅ 15%
+```
+
+### Learning Days Completed
+
+```text
+Day 1 → Day 24 ✅
+```
+
+Total Completed:
+
+```text
+24 Learning Days
+```
 
 ---
 
@@ -212,8 +263,8 @@ Contributors can help by:
 
 Please read:
 
-- `CONTRIBUTING.md`
-- `CONTRIBUTION_RULES.md`
+- CONTRIBUTING.md
+- CONTRIBUTION_RULES.md
 
 before contributing.
 
@@ -230,36 +281,16 @@ SQL ✅
     ↓
 ETL ✅
     ↓
-Data Engineering 🔄
+Data Engineering ✅
     ↓
-Dagster ⏳
+Dagster 🔄
     ↓
 Production Data Pipelines ⏳
 ```
 
 ---
 
-# 📅 Tomorrow's Plan
+# 📅 Next Plan
 
 ```text
-Day 21 - ETL Reporting Pipeline
-Day 22 - End-to-End Data Pipeline Project
-Day 23 - Data Warehousing Basics
-Day 24 - Introduction to Dagster 🚀
-```
-
----
-
-# 🚀 Why I'm Doing This
-
-I believe the best way to learn is by building.
-
-This repository documents my journey from Python basics to becoming a Data Engineer capable of building real-world ETL pipelines and orchestrating them using Dagster.
-
-Every commit represents a small step forward.
-
----
-
-Started: August 2026 🚀
-
-The journey from Python Beginner to Dagster Data Engineer continues...
+Day 25 - Dagster Assets Deep Dive
