@@ -1,0 +1,6 @@
+dagster
+dagster-webserver
+duckdb
+pandas
+matplotlib
+faker

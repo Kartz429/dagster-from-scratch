@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Databases
+*.duckdb
+*.db
+
+# Dagster
+.dagster/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Environment Variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
