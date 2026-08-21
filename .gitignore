@@ -29,3 +29,9 @@ Desktop.ini
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Dagster Temp Files
+.tmp_dagster_home_*/
+
+# Generated Reports
+dashboard_report.txt
