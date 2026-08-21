@@ -15,6 +15,8 @@ Learn:
 - ETL
 - Dagster
 - Data Pipelines
+- Data Warehousing
+- Analytics Engineering
 
 ---
 
@@ -63,16 +65,29 @@ Every day:
 - [x] Day 21 - ETL Reporting Pipeline
 - [x] Day 22 - End-to-End Data Pipeline
 - [x] Day 23 - Data Warehouse Basics (SQLite)
+
+## Week 4: Dagster Fundamentals
+
 - [x] Day 24 - Introduction to Dagster
+- [x] Day 25 - Dagster Assets Deep Dive
+- [x] Day 26 - Dagster Jobs & Definitions
+- [x] Day 27 - Dagster Resources
+- [x] Day 28 - Dagster Partitions
+- [x] Day 29 - Dagster Asset Checks
 
 ## Upcoming
 
-- [ ] Day 25 - Dagster Assets Deep Dive
-- [ ] Day 26 - Dagster Jobs & Definitions
-- [ ] Day 27 - Dagster Resources
-- [ ] Day 28 - Dagster Partitions
-- [ ] Day 29 - Dagster Asset Checks
-- [ ] Day 30 - Final Dagster Project
+- [ ] Day 30 - Dagster Schedules
+- [ ] Day 31 - Dagster Sensors
+- [ ] Day 32 - Dagster Config & Logging
+- [ ] Day 33 - Dagster Asset Metadata
+- [ ] Day 34 - Dagster Asset Groups
+- [ ] Day 35 - Dagster IO Managers
+- [ ] Day 36 - Complete Student ETL Project
+- [ ] Day 37 - DuckDB Integration
+- [ ] Day 38 - Real Analytics Pipeline
+- [ ] Day 39 - Production Data Project
+- [ ] Day 40 - Final Dagster Portfolio Project
 
 ---
 
@@ -130,6 +145,10 @@ Every day:
 - Assets
 - Asset Dependencies
 - Definitions
+- Jobs
+- Resources
+- Partitions
+- Asset Checks
 
 ## Development Practices
 
@@ -138,6 +157,8 @@ Every day:
 - Testing
 - Test Cases
 - Project Organization
+- Code Reviews
+- Version Control
 
 ---
 
@@ -171,6 +192,11 @@ dagster-from-scratch/
 ├── day-22-end-to-end-data-pipeline/
 ├── day-23-data-warehouse-basics/
 ├── day-24-introduction-to-dagster/
+├── day-25-dagster-assets/
+├── day-26-dagster-jobs/
+├── day-27-dagster-resources/
+├── day-28-dagster-partitions/
+├── day-29-dagster-asset-checks/
 │
 ├── notes/
 ├── projects/
@@ -197,27 +223,31 @@ Completed:
 
 ✅ Data Validation
 
-✅ Reporting Pipelines
+✅ Analytics Reporting
 
 ✅ End-to-End Data Pipelines
 
 ✅ Data Warehousing Basics
 
-✅ Introduction to Dagster
+✅ Dagster Fundamentals
 
 Currently Learning:
 
-🔄 Dagster
+🔄 Advanced Dagster
 
 Upcoming:
 
-🚀 Dagster Assets
+🚀 Schedules
 
-🚀 Jobs & Definitions
+🚀 Sensors
 
-🚀 Resources
+🚀 Config & Logging
 
-🚀 Asset Checks
+🚀 Asset Metadata
+
+🚀 Asset Groups
+
+🚀 IO Managers
 
 🚀 Production Data Pipelines
 
@@ -230,20 +260,42 @@ Python            ✅ 100%
 OOP               ✅ 100%
 SQL               ✅ 100%
 ETL               ✅ 100%
-Data Engineering  ✅ 90%
-Dagster           ✅ 15%
+Data Engineering  ✅ 95%
+Dagster           ✅ 60%
 ```
 
 ### Learning Days Completed
 
 ```text
-Day 1 → Day 24 ✅
+Day 1 → Day 29 ✅
 ```
 
-Total Completed:
+### Total Completed
 
 ```text
-24 Learning Days
+29 Learning Days
+```
+
+---
+
+# 🗺️ Roadmap
+
+```text
+Python ✅
+    ↓
+OOP ✅
+    ↓
+SQL ✅
+    ↓
+ETL ✅
+    ↓
+Data Engineering ✅
+    ↓
+Dagster Fundamentals ✅
+    ↓
+Advanced Dagster 🔄
+    ↓
+Production Data Pipelines ⏳
 ```
 
 ---
@@ -272,20 +324,18 @@ before contributing.
 
 # 🎯 End Goal
 
+Become capable of building:
+
 ```text
-Python ✅
-    ↓
-OOP ✅
-    ↓
-SQL ✅
-    ↓
-ETL ✅
-    ↓
-Data Engineering ✅
-    ↓
-Dagster 🔄
-    ↓
-Production Data Pipelines ⏳
+Production ETL Pipelines
+        ↓
+Data Warehouses
+        ↓
+Analytics Pipelines
+        ↓
+Dagster Orchestration
+        ↓
+Enterprise Data Platforms
 ```
 
 ---
@@ -293,4 +343,140 @@ Production Data Pipelines ⏳
 # 📅 Next Plan
 
 ```text
-Day 25 - Dagster Assets Deep Dive
+Day 30 - Dagster Schedules
+Day 31 - Dagster Sensors
+Day 32 - Dagster Config & Logging
+Day 33 - Dagster Asset Metadata
+Day 34 - Dagster Asset Groups
+Day 35 - Dagster IO Managers
+Day 36 - Complete Student ETL Project
+Day 37 - DuckDB Integration
+Day 38 - Real Analytics Pipeline
+Day 39 - Production Data Project
+Day 40 - Final Dagster Portfolio Project
+```
+
+---
+
+# 🚀 Future Learning Path
+
+```text
+Dagster Fundamentals ✅
+        ↓
+Schedules
+        ↓
+Sensors
+        ↓
+Config & Logging
+        ↓
+Metadata & Monitoring
+        ↓
+IO Managers
+        ↓
+DuckDB Integration
+        ↓
+Production Data Pipelines
+        ↓
+Portfolio Projects
+```
+
+---
+
+# 🚀 Why I'm Doing This
+
+I believe the best way to learn is by building.
+
+This repository documents my journey from Python basics to becoming a Data Engineer capable of building real-world ETL pipelines and orchestrating them using Dagster.
+
+Every project focuses on practical implementation rather than theory alone.
+
+Every commit represents a small step forward.
+
+---
+
+# 🏁 Milestones Achieved
+
+✅ Python Fundamentals
+
+✅ Data Structures & Collections
+
+✅ Object-Oriented Programming
+
+✅ SQL Fundamentals
+
+✅ ETL Fundamentals
+
+✅ Data Validation
+
+✅ Reporting Pipelines
+
+✅ End-to-End Data Pipelines
+
+✅ Data Warehousing Basics
+
+✅ SQLite
+
+✅ Dagster Fundamentals
+
+---
+
+# 📚 Learning Summary
+
+```text
+Day 1  → Day 7   : Python Fundamentals
+Day 8  → Day 14  : OOP
+Day 15 → Day 18  : SQL
+Day 19 → Day 23  : Data Engineering Foundations
+Day 24 → Day 29  : Dagster Fundamentals
+Day 30 → Day 40  : Advanced Dagster & Projects
+```
+
+---
+
+# 🎯 Final Goal
+
+Become capable of building:
+
+```text
+Raw Data
+    ↓
+ETL Pipelines
+    ↓
+Data Warehouse
+    ↓
+Analytics Layer
+    ↓
+Dagster Orchestration
+    ↓
+Production Data Platform
+```
+
+and confidently work as a:
+
+```text
+Data Engineer
+Analytics Engineer
+Dagster Developer
+```
+
+---
+
+# 📈 Current Journey Status
+
+```text
+Python            ✅ Completed
+OOP               ✅ Completed
+SQL               ✅ Completed
+ETL               ✅ Completed
+Data Engineering  ✅ Nearly Complete
+Dagster           🔄 In Progress
+Projects          🔄 In Progress
+```
+
+---
+
+Started: August 2026 🚀
+
+**Current Progress: Day 29 / Day 40 ✅**
+
+**11 Days Remaining To Complete The Dagster Roadmap 🚀**
